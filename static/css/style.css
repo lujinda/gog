@@ -54,3 +54,13 @@ body{
 .now_topic{
     background-color:#ccc;
 }
+#fork_me{
+    position: fixed;
+    top:0px;
+    right: 0px;
+    border: none;
+    outline: 0px none;
+}
+#fork_me img{
+    width: 180px;
+}
