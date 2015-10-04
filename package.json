@@ -1,0 +1,15 @@
+{
+  "name": "pgoogle",
+  "version": "1.0.0",
+  "dependencies":{
+      "express": "4.x",
+      "hbs": "3.1.0",
+      "body-parser": "1.x",
+      "cookie-parser": "1.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.coding.net:tuxpy/pgoogle.git"
+  },
+  "engines": {"node": ">=0.10"}
+}

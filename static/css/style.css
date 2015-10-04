@@ -1,0 +1,56 @@
+body{
+    font-size:small;
+    width:100%;
+    height:100%;
+    background-color:#fff;
+    font-family: arial,helvetica,sans-serif;
+    margin:0px;
+}
+#search_wrap{
+    width:600px;
+    margin:100px auto;
+}
+#search_top{
+    background: url('../images/logo.png') no-repeat scroll 0% 0% / 269px 95px transparent;
+    height: 95px;
+    margin:auto;
+    width: 269px;
+}
+#search_top a{
+    color: #777;
+    text-decoration:none;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    left: 218px;
+    top: 76px;
+}
+#search_box{
+    width:100%;
+    margin:50px auto;
+}
+#search_input{
+    width:100%;
+    height:28px;
+    border:#ccc 1px solid;
+    font-size:17px;
+    padding:4px;
+    margin:-4px;
+}
+#search_topic_wrap{
+    border:1px solid #aaa;
+    display:none;
+    width:100%;
+    font-size:17px;
+    padding:4px 0px;
+    border-top:none;
+}
+#search_topic_wrap a{
+    padding:2px 5px;
+    display:block;
+    text-decoration:none;
+    color:#444;
+}
+.now_topic{
+    background-color:#ccc;
+}

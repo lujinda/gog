@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html itemscope="" itemtype="http://schema.org/WebPage" lang="zh-CN"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<head>
+    <title>请验证身份</title>
+    <script src="static/js/jquery.js"></script>
+    <link rel="stylesheet" href='static/css/style.css' />
+</head>
+<body style="background-color:#eee">
+    <div id="login_wrap">
+        <div id="login_title">
+            由于服务器宽带有限，我们现在需要对您做一个简单地认证，请回答下面的问题:
+        </div>
+        <div id="login_qa">
+            <form id="login_form" method='POST'>
+                <span id="login_q">{{login_q}}</span>
+            <input style="display:none" value="{{q_no}}" name="login_q_no" />
+            <input type="text" name="login_a"/>
+            <button type="submit">提交</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script>
+    $('#login_form').submit(function(){
+        if ($(this).find('input[name="login_a"]').val().trim() == ''){
+            alert('请输入答案');
+            return false;
+        }
+    });
+</script>
+</html>
